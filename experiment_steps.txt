@@ -12,6 +12,7 @@ E	js206t	Update Lines 2,3, and 5 in js206t/feature. Commit, push.
 		git fetch upstream
 		git checkout master
 		git merge upstream/master
+		git push  # Push changes to origin/master
 		#
 		git checkout newfeature
 		git rebase master
