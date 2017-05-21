@@ -1,0 +1,24 @@
+A	js206	Create active.txt and passive_js206.txt. Commit, push.
+B	js206	Update a line in active.txt
+C	js206t	Fork Sandbox.
+		Clone js206t/Sandbox.
+		Establish js206/Sandbox as upstream.
+		Create branch feature. checkout feature.
+		Update line2 in active.txt. Create passive_js206t. 
+		git commit/push to js206t/feature.
+D	js206	Update Line2 and Line4 in js206/master. Commit, push.
+E	js206t	Update Lines 2,3, and 5 in js206t/feature. Commit, push.
+		Update from upstream in prep for pull request.
+		git fetch upstream
+		git checkout master
+		git merge upstream/master
+		#
+		git checkout newfeature
+		git rebase master
+		# Problem with Line2, yes?
+		# Squash commits
+		git rebase --interactive master newfeature
+F	js206	Update Line3. Commit, push.
+X	js206t	On github, issue a pull request.
+		Note, a commit on upstream/master has occurred, so there's an issue
+X	js206	Try handling the pull request.
