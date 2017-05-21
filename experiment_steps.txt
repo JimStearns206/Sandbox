@@ -1,5 +1,5 @@
 A	js206	Create active.txt and passive_js206.txt. Commit, push.
-B	js206	Update a line in active.txt
+B	js206	Update Line1 in active.txt
 C	js206t	Fork Sandbox.
 		Clone js206t/Sandbox.
 		Establish js206/Sandbox as upstream.
